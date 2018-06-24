@@ -1,2 +1,2 @@
-# Experimento-2
-Tese de Doutorado sobre Honestidade da Professora Mariana P. Bonfim
+# experimento-desonestidade
+Projeto criado para defesa de tese de doutorado sobre desonestidade.
