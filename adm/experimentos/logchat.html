@@ -1,0 +1,51 @@
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Experimento 2</title>
+    <link rel="icon" href="images/meuicone.ico" type="images/icon" />
+  <link rel="shortcut icon" href="images/meuicone.ico" type="images/icone" />
+  <meta name="theme-color" content="#303F9F">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer="" src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body id="somio" style="background-image: url(https://previews.123rf.com/images/mtmmarek/mtmmarek1412/mtmmarek141200053/34562261-creamy-neutral-background-Stock-Photo.jpg)">
+  <button id="escondido" style="background-color: lightblue;border-style: hidden; border-radius: 6px ; width: 150px; height: 30px; color: black; position:absolute; left: 70%" type="button" onclick="voltamenu()">Menu</button>
+  <button id="escondido2" style="background-color: lightblue;border-style: hidden; border-radius: 6px ; width: 150px; height: 30px; color: black; position:absolute; left: 85%" type="button" onclick="deslogar()">Logout</button>
+ <div>
+  <div>
+
+  <main>
+    <div>
+<div style="text-align: center;width: 100%;margin-bottom: 10px;">
+  <img style="width: 50px; position: relative;" src="images/loading2.gif" id="loading"/>
+        <h4><u>Consulta de Chat Online</u></h4>
+        <form id="formulario">
+Insira o número do chat que deseja consultar : <input type="text" id="message" value="">
+<br>
+<br>
+<button id="escondido3" style="background-color: lightblue;border-style: hidden; border-radius: 6px ; width: 150px; height: 30px; color: black;" type="button"  onclick='init()'>Gerar Conversa</button>
+<button id="escondido4" style="background-color: lightblue;border-style: hidden; border-radius: 6px ; width: 150px; height: 30px; color: black;" type="button" onclick="limpar()">Limpar Tabela</button>
+<button id="escondido5" style="background-color: lightblue;border-style: hidden; border-radius: 6px ; width: 150px; height: 30px; color: black;" type="button"  onclick='fnExcelReport()'>Exportar Excel</button>
+</form>
+<center>
+        <table id="tabela"  style="border-radius: 5px ; text-align: center; background-color: lightgrey">
+          <th>GRUPO</th>
+          <th>ID</th>
+          <th>Fala</th>
+   <tbody>
+
+  </tbody>
+</table>
+</center>
+      </div>
+    </div>
+  </main>
+</div>
+<input type="hidden" value="PC" id="tipo-grupo"/>
+  
+  <script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/logchat.js"></script>
+</body>
+</html>

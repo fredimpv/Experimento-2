@@ -1,0 +1,63 @@
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Experimento 2</title>
+    <link rel="icon" href="images/meuicone.ico" type="images/icon" />
+  <link rel="shortcut icon" href="images/meuicone.ico" type="images/icone" />
+  <meta name="theme-color" content="#303F9F">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer="" src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body id="somio" style="background-color:#8E2323; background-size: cover">
+  <button id="escondido" class="buttoncerto2" onclick="voltamenu()">Menu</button>
+  <button id="escondido2" class="buttoncerto" onclick="deslogar()">Logout</button>
+ <div>
+  <div>
+
+  <main>
+    <div>
+
+      <div style="text-align: center;width: 100%;margin-bottom: 10px;">
+        <img style="width: 50px; position: relative;" src="images/loading2.gif" id="loading"/>
+        <h4 class="ah"><u>TABELA </u></h4>
+         <button id="escondido3" class="button-success" onclick="fnExcelReport()">BAIXAR TABELA</button>
+         <br>
+         <br>
+        <table id="tabela" border="2px" style="border-style: groove;">
+   <tbody>
+       <tr>
+           <th style="color: white;">ID DO EXPERIMENTO</th>
+           <th style="color: white;">ID DO PARTICIPANTE</th>
+           <th style="color: white;">GRUPO</th>
+           <th style="color: white;">TIPO DE GRUPO</th>
+           <th style="color: white;">QTD TENTATIVAS PT1</th>
+           <th style="color: white;">QTD TENTATIVAS PT2</th>
+           <th style="color: white;">ID NUMERICO</th>
+           <th style="color: white;">CURSO</th>
+           <th style="color: white;">GENERO</th>
+           <th style="color: white;">IDADE</th>
+           <th style="color: white;">INSTITUICAO</th>
+           <th style="color: white;">NUMERO DE PESSOAS</th>
+           <th style="color: white;">RENDA</th>
+           <th style="color: white;">DECISAO PT 1 </th>
+           <th style="color: white;">DECISAO PT 2 </th>
+           <th style="color: white;">Zerou Pt1 ?</th>
+           <th style="color: white;">Zerou Pt2 ?</th>
+           <th style="color: white;">VALOR A RECEBER</th>
+           <th style="color: white;">Tempo de Jogo</th>
+      </tr>
+  </tbody>
+</table>
+      </div>
+    </div>
+  </main>
+</div>
+<input type="hidden" value="PC" id="tipo-grupo"/>
+  
+  <script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/aguarde.js"></script>
+</body>
+</html>

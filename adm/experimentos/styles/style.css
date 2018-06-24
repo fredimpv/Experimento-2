@@ -1,0 +1,73 @@
+h1{
+  font-weight: 300;
+}
+.teste
+{
+    background: white;
+    font-size: 20px;
+    color :black;
+}
+.button-success
+ {
+
+    background-color: #B22222; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buttoncerto
+{
+    background-color: #B22222; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    position:absolute; 
+    left: 80%;
+}
+
+.buttoncerto2
+{
+    background-color: #B22222; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    position:absolute; 
+    left: 70%;
+}
+
+.text
+{
+  color: black;
+  padding-top: 25px;
+}
+.meuform
+{
+      background-image:none;
+      background-repeat: no-repeat;
+      background-position: center;
+     background-size: 50%;  
+     position: absolute;
+     top:100%;
+
+}
+.ah
+{
+  font-size: 30px;
+  color: white;
+}
