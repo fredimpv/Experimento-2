@@ -1,9 +1,9 @@
 var config = {
-    apiKey: "AIzaSyA2xoeMIlwYI3s-HPcyACI8SukJcOBzkRY",
-    authDomain: "experimento-parte2.firebaseapp.com",
-    databaseURL: "https://experimento-parte2.firebaseio.com",
-    storageBucket: "experimento-parte2.appspot.com",
-    messagingSenderId: "355842770689"
+    apiKey: "#",
+    authDomain: "#",
+    databaseURL: "#",
+    storageBucket: "#",
+    messagingSenderId: "#"
   };
 
 var version = 'v1.8';
